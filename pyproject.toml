@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 79
+include = '\.py$'
+exclude = '''
+    /(
+        | \.git
+        | \.venv
+        | migrations
+        | venv
+        | .venv
+        | alembic
+    )/
+'''
